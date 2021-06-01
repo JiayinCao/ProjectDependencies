@@ -64,14 +64,14 @@ def unzip_dir(directory):
                     # if this is the first time, create file
                     if file is None:
                         # use the same file name
-                        zip_file_name = directory + '\\' + os.path.splitext(filename)[0] + '.zip'
+                        zip_file_name = directory + '/' + os.path.splitext(filename)[0] + '.zip'
                         file = open(zip_file_name, 'wb+')
 
                     # indicate that we are merging this file
                     print('Merging file ' + filename)
 
                     # simply pack whatever is in that file to the bigger file
-                    full_split_file_name = directory + '\\' + filename
+                    full_split_file_name = directory + '/' + filename
                     split_file = open(full_split_file_name, 'rb')
 
                     # read the first trunk
@@ -122,7 +122,7 @@ def unzip_dir(directory):
             # we should have only one single zip file in this folder
             # we don't care about the second one
             if filename.endswith('zip'):
-                zip_file_name = directory + '\\' + filename
+                zip_file_name = directory + '/' + filename
 
         if zip_file_name != "":
             # indicate that we are unzipping the file

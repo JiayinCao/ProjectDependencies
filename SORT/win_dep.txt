@@ -1,8 +1,5 @@
-[Embree]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Ebmree/embree_3_13_0_win.zip
 
-[Marl]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Marl/marl_win.zip
 
-[TSL]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/TSL/tsl_win.zip

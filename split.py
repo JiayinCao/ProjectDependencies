@@ -11,8 +11,9 @@ import sys
 
 # the maximum size of 'non-big' file on Github is 100MB
 # I have to manually split all zip files before checking them in.
-# 95 mb is used instead of 100mb, maybe there is some meta data that
-# takes extra storage.
+# 95mb is used instead of 100mb this is because Github has slightly
+# more strict rule somehow the real size limitation is smaller than
+# 100mb
 ZIP_FILE_SIZE_CAP = 1024 * 1024 * 95
 
 # make sure we have one valid argument

@@ -143,8 +143,6 @@ def sync_files(dep_file_urls):
     # dependency file list
     dep_files = []
 
-    index = 0
-
     # retrieve all the files first
     for file_url in dep_file_urls:
         # extract a the file name from url
@@ -156,7 +154,7 @@ def sync_files(dep_file_urls):
             file_name = file_url[last_slash:-1]
 
         # get a temporary name for it first
-        temp_file = dependency_dir + '/' + file_name + str(index)
+        temp_file = dependency_dir + '/' + file_name
 
         # it is not large enough to be split
         if len(dep_file_urls) == 1:
@@ -167,9 +165,6 @@ def sync_files(dep_file_urls):
 
         # mark the file so that it will be deleted later
         dep_files.append(temp_file)
-
-        # update index
-        index += 1
 
     # clear this list
     dep_file_urls.clear()

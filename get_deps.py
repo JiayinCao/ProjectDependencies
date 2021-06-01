@@ -187,7 +187,7 @@ def main():
     # setup dependecy directory if needed
     if len(sys.argv) >= 3:
         global dependency_dir
-        dependency_dir = sys.argv[2]
+        dependency_dir = './' + sys.argv[2]
 
         # create the directory if needed
         if not os.path.isdir(dependency_dir):

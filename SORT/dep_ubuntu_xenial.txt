@@ -1,0 +1,5 @@
+https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Ebmree/embree_3_13_0_ubuntu_xenial.zip
+
+https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Marl/marl_ubuntu_xenial.zip
+
+https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/TSL/tsl_ubuntu_xenial.zip

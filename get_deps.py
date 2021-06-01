@@ -17,16 +17,17 @@
 import os
 import sys
 import zipfile
+import urllib.request
 
 # the maximum size of 'non-big' file on Github is 100MB
 # I have to manually split all zip files before checking them in.
 ZIP_FILE_SIZE_CAP = 1024 * 1024 * 100
 
-# make sure we have one valid argument
-if len(sys.argv) > 1:
-    # try reading the file
-    directory = sys.argv[1]
+# dependecy directory
+dependency_dir = '.'
 
+# unzip what is in the directory
+def unzip_dir(directory):
     # nothing
     zip_file_name = ''
 
@@ -136,5 +137,88 @@ if len(sys.argv) > 1:
         else:
             # no valid zip file, something is wrong
             print('No valid zip file in directory ' + directory)
-else:
-    print("Missing directory argument.")
+
+# helper function to download all zip files and decompress them
+def sync_files(dep_file_urls):
+    # dependency file list
+    dep_files = []
+
+    index = 0
+
+    # retrieve all the files first
+    for file_url in dep_file_urls:
+        # extract a the file name from url
+        last_slash = file_url.rfind('/')
+        file_name = file_url[last_slash:]
+
+        # get rid of the new line signal
+        if file_url[-1] == '\n':
+            file_name = file_url[last_slash:-1]
+
+        # get a temporary name for it first
+        temp_file = dependency_dir + '/' + file_name + str(index)
+
+        # it is not large enough to be split
+        if len(dep_file_urls) == 1:
+            temp_file = dependency_dir + '/' + file_name
+
+        # retrieve the file
+        urllib.request.urlretrieve(file_url, temp_file)
+
+        # mark the file so that it will be deleted later
+        dep_files.append(temp_file)
+
+        # update index
+        index += 1
+
+    # clear this list
+    dep_file_urls.clear()
+
+    # decompress the files
+    unzip_dir(dependency_dir)
+
+# main function
+def main():
+    # make sure we have one valid argument
+    if len(sys.argv) <= 1:
+        print("Missing directory argument.")
+        return
+
+    # setup dependecy directory if needed
+    if len(sys.argv) >= 3:
+        global dependency_dir
+        dependency_dir = sys.argv[2]
+
+        # create the directory if needed
+        if not os.path.isdir(dependency_dir):
+            os.makedirs(dependency_dir)
+
+        print('Dependency directory is \'' + dependency_dir + '\'')
+
+    # argument one has to be the url leads to the dependency list
+    url = sys.argv[1]
+
+    # get content from the url
+    file = urllib.request.urlopen(url)
+
+    dep_file_urls = []
+
+    # iterate the file line by line
+    for line in file:
+        line = line.decode("utf-8")
+
+        # flush the previously cached dependency files
+        if line == '\n':
+            sync_files(dep_file_urls)
+            continue
+        
+        # push it in the dependency list
+        dep_file_urls.append(line)
+
+    # see if we have any left-over dependency
+    if dep_file_urls:
+        sync_files(dep_file_urls)
+
+# main function
+if __name__ == "__main__":
+    main()

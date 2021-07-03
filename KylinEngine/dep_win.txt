@@ -5,3 +5,5 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Python/Pyt
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Python/Python_3_8/Python38.zip2
 
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Vulkan/VulkanSDK(1.2.148.0).zip
+
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/RapidJson/rapidjson_1_1_0.zip

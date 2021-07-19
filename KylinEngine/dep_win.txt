@@ -1,4 +1,4 @@
-https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/DXC/dxc_2021_04-20.zip
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/DXC/dxc_2021_07_01.zip
 
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Python/Python_3_8/Python38.zip0
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Python/Python_3_8/Python38.zip1

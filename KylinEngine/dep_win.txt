@@ -11,3 +11,5 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/RapidJson/
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/stb_image/stb_image.zip
 
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/tiny_exr/tinyexr.zip
+
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/imgui/imgui_1_85.zip

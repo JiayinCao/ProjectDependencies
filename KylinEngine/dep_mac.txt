@@ -10,5 +10,5 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/tiny_exr/t
 [imgui]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/imgui/imgui_1_85.zip
 
-[MetalCpp]
+[metal-cpp]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/MetalCpp/MetalCpp.zip

@@ -143,8 +143,6 @@ def sync_files(dep_file_urls, folder_name):
     # dependency file list
     dep_files = []
 
-    print(dep_file_urls, folder_name)
-
     # check if the dependency is ready
     dep_folder = dependency_dir + '/' + folder_name
     if os.path.isdir(dep_folder):

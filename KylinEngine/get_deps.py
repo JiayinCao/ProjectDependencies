@@ -149,7 +149,11 @@ def sync_files(dep_file_urls, folder_name):
     dep_folder = dependency_dir + '/' + folder_name
     if os.path.isdir(dep_folder):
         print('Skipping dependency ' + folder_name + ' as it is existed.')
+        dep_file_urls.clear()
         return
+
+    # create the new dir
+    os.mkdir(dep_folder)
 
     # retrieve all the files first
     for file_url in dep_file_urls:
@@ -162,11 +166,7 @@ def sync_files(dep_file_urls, folder_name):
             file_name = file_url[last_slash:-1]
 
         # get a temporary name for it first
-        temp_file = dependency_dir + '/' + file_name
-
-        # it is not large enough to be split
-        if len(dep_file_urls) == 1:
-            temp_file = dependency_dir + '/' + file_name
+        temp_file = dep_folder + '/' + file_name
 
         # retrieve the file
         urllib.request.urlretrieve(file_url, temp_file)
@@ -178,7 +178,7 @@ def sync_files(dep_file_urls, folder_name):
     dep_file_urls.clear()
 
     # decompress the files
-    unzip_dir(dependency_dir)
+    unzip_dir(dep_folder)
 
 # main function
 def main():

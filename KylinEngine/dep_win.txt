@@ -13,3 +13,5 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/stb_image/
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/tiny_exr/tinyexr.zip
 
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/imgui/imgui_1_85.zip
+
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/SDL/sdl2_sdk.zip

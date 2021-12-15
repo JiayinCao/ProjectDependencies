@@ -12,3 +12,6 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/imgui/imgu
 
 [metal-cpp]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/MetalCpp/MetalCpp.zip
+
+[sdl2_sdk]
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/SDL/sdl2_sdk_mac.zip

@@ -1,9 +1,6 @@
 [dxc]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/DXC/dxc_2021_07_01.zip
 
-[VulkanSDK(1.2.148.0)]
-https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Vulkan/VulkanSDK(1.2.148.0).zip
-
 [rapidjson]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/RapidJson/rapidjson_1_1_0.zip
 

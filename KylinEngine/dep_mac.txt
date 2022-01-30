@@ -8,7 +8,7 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/stb_image/
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/tiny_exr/tinyexr.zip
 
 [imgui]
-https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/imgui/imgui_1_85.zip
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/imgui/imgui_1_87.zip
 
 [metal-cpp]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/MetalCpp/MetalCpp.zip

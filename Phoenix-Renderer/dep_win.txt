@@ -1,0 +1,5 @@
+[dxc]
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Phoenix-Renderer/dxc_2022_07_18.zip
+
+[sdl2_sdk]
+https://github.com/JiayinCao/ProjectDependencies/raw/main/KylinEngine/Phoenix-Renderer/sdl2_sdk.zip

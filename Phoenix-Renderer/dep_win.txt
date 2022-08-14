@@ -2,4 +2,4 @@
 https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/DXC/dxc_2022_07_18.zip
 
 [sdl2_sdk]
-https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/sdl2_sdk.zip
+https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/SDL/sdl2_sdk.zip

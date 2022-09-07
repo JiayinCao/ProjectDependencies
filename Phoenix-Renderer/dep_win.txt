@@ -9,3 +9,6 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/D3D12
 
 [rapid_json]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/RapidJson/rapidjson_1_1_0.zip
+
+[nrd]
+https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/NRD/nrd_3_5_0.zip

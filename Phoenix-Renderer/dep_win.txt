@@ -12,3 +12,6 @@ https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/Rapid
 
 [nrd]
 https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/NRD/nrd_3_5_0.zip
+
+[imgui]
+https://github.com/JiayinCao/ProjectDependencies/raw/main/Phoenix-Renderer/Imgui/imgui_1_88.zip

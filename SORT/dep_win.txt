@@ -1,5 +1,0 @@
-https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Ebmree/embree_3_13_0_win.zip
-
-https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Marl/marl_win.zip
-
-https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/TSL/tsl_win.zip

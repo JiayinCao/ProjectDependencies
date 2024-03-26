@@ -1,5 +1,0 @@
-https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Ebmree/embree_3_13_0_ubuntu_bionic.zip
-
-https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/Marl/marl_ubuntu_bionic.zip
-
-https://github.com/JiayinCao/ProjectDependencies/raw/main/SORT/TSL/tsl_ubuntu_bionic.zip

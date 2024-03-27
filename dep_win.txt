@@ -1,9 +1,9 @@
 [llvm]
-https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm.zip0
-https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm.zip1
-https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm.zip2
-https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm.zip3
-https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm.zip4
+https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm_10_0_0_win_x64.zip0
+https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm_10_0_0_win_x64.zip1
+https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm_10_0_0_win_x64.zip2
+https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm_10_0_0_win_x64.zip3
+https://github.com/JiayinCao/ProjectDependencies/blob/Phoenix-Render/llvm_10_0_0/win/x86_64/llvm_10_0_0_win_x64.zip4
 
 [flex_bison]
 https://github.com/JiayinCao/ProjectDependencies/tree/Phoenix-Render/flex_bison-2.5.24/win/x86_64/flex_bison.zip

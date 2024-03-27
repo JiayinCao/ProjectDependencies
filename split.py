@@ -13,8 +13,8 @@ import sys
 # I have to manually split all zip files before checking them in.
 # 95mb is used instead of 100mb this is because Github has slightly
 # more strict rule somehow the real size limitation is smaller than
-# 100mb
-ZIP_FILE_SIZE_CAP = 1024 * 1024 * 95
+# 50mb
+ZIP_FILE_SIZE_CAP = 1024 * 1024 * 45
 
 # make sure we have one valid argument
 if len(sys.argv) > 1:

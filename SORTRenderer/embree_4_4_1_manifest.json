@@ -1,0 +1,47 @@
+{
+  "version": "4.4.1",
+  "release_url": "https://github.com/RenderKit/embree/releases/tag/v4.4.1",
+  "notes": [
+    "Official CPU archives, byte-for-byte unchanged; SYCL packages are not used by SORT.",
+    "Linux uses the existing Ubuntu/x64/jammy cache directory; this is the upstream generic x86_64 Linux package.",
+    "SORT currently downloads these packages from upstream; caching them does not change the installer URL."
+  ],
+  "packages": [
+    {
+      "platform": "darwin",
+      "architecture": "arm64",
+      "path": "Mac/arm64/embree_4_4_1.zip",
+      "upstream_filename": "embree-4.4.1.arm64.macosx.zip",
+      "url": "https://github.com/RenderKit/embree/releases/download/v4.4.1/embree-4.4.1.arm64.macosx.zip",
+      "sha256": "12236c79f37e98224582f7fa9e113160b3d4eb5eb5f24846a96faf05e32a5562",
+      "size_bytes": 58614088
+    },
+    {
+      "platform": "darwin",
+      "architecture": "x64",
+      "path": "Mac/x64/embree_4_4_1.zip",
+      "upstream_filename": "embree-4.4.1.x86_64.macosx.zip",
+      "url": "https://github.com/RenderKit/embree/releases/download/v4.4.1/embree-4.4.1.x86_64.macosx.zip",
+      "sha256": "bbbfc0a1beea14c157d17349b71151b846baad884d81fb5da6d74fb8b0bacaec",
+      "size_bytes": 75539875
+    },
+    {
+      "platform": "win32",
+      "architecture": "x64",
+      "path": "Windows/x64/embree_4_4_1.zip",
+      "upstream_filename": "embree-4.4.1.x64.windows.zip",
+      "url": "https://github.com/RenderKit/embree/releases/download/v4.4.1/embree-4.4.1.x64.windows.zip",
+      "sha256": "5aa1fa3161a720f9c610b06c652b80f421cb2b1fe8221fdf92b74157336fdf8f",
+      "size_bytes": 77987049
+    },
+    {
+      "platform": "linux",
+      "architecture": "x64",
+      "path": "Ubuntu/x64/jammy/embree_4_4_1.tar.gz",
+      "upstream_filename": "embree-4.4.1.x86_64.linux.tar.gz",
+      "url": "https://github.com/RenderKit/embree/releases/download/v4.4.1/embree-4.4.1.x86_64.linux.tar.gz",
+      "sha256": "aa506a55a581055e30cdc8819557dd4163ed514fc63ce4c1d66a6df82631be3f",
+      "size_bytes": 77252894
+    }
+  ]
+}
